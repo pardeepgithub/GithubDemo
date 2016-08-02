@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     
@@ -19,6 +20,10 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         print("Hi inside of viewWillAppear method of GithubDemo project.")
+        
+        let value1 = 50
+        let value2 = 5
+        print("Division of two number value1 \(value1) and value2 \(value2) is :\(value1 / value2)")
     }
     
 
